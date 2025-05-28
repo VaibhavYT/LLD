@@ -19,7 +19,7 @@ class ParkingSpot:
     def get_vehicle_type(self) -> VehicleType:
         return self.vehicle_type
     
-    def get_parked_vehicle(self)-> Vehicle:
+    def get_parked_vehicle(self):
         return self.parked_vehicle
     
     def get_spot_number(self)-> int:

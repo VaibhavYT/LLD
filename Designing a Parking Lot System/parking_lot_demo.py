@@ -5,6 +5,7 @@ from truck import Truck
 from motorcycle import Motorcycle
 
 class ParkingLotDemo:
+    @staticmethod
     def run():
         parking_lot = ParkingLot.get_instance()
         parking_lot.add_level(Level(1,10))
